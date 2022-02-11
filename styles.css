@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+
+#pepe{
+
+    background-color: rgb(143, 25, 158);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.wrapper,
+.porfolio  {
+    width: 100vw;
+    height: 100vw;
+    background-color: #191c32;
+    color: rgb(255, 255, 255);
+}
+
+
+.icono {
+    color: rgb(115, 209, 238);
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+.menu li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+.menu .Active{
+    display: flex;
+
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu a:hover{
+    background-color: aqua;
+    color: #191c32;
+    transition: ease-in .3s;
+}
+
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Exo 2', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border:  7px solid aqua;
+}
+
+.info-conten span{
+    color: aqua;
+}
+
+.dowland{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 1px 3px 11px -5px;
+}
+
+.dowland:hover{
+    background-color: #fff;
+} 
+
+.acerca{
+    display: grid;
+    grid-template-columns: repeat(10 ,1fr);
+    width: 500vw;
+    align-items: center;
+}
+
+.acerca img{
+    width: 100%;
+    
+}
+
+.acercaINfo{
+    padding: 3em;
+
+}
+
+.acercaINfo h2{
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 2.5em;
+}
+
+.acercaINfo p{
+    margin-bottom: 1em;
+}
+
+.porfolioHead{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em;
+
+}
+
+.porfolioHead h2{
+    font-size: 2.5em;
+}
+
+.porfolio .contenedor{
+    width: 80vw;
+    height: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    background-color: #2b3058;
+    margin: 2em;
+}
+
+.cardImage{
+    width: 300px;
+    height: 150px;
+    background-image: url(https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2017/12/visual-code-portada.png?fit=666%2C370&quality=100&strip=all&ssl=1);
+    background-size: cover;
+    
+}
+
+.cardtitle{
+    padding: 20px;
+}
+
+.Projects_LInks{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.Projects_LInks i{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.card .Project-details{
+    display: flex;
+    align-self: center;
+    margin: 1em;
+    width: 70%;
+    
+}
+
+.card .Project-details a{
+    text-decoration: none;
+    color: #191c32;
+}
+
+/*.imgemail{
+    max-width: 500%;
+    max-height: 100%;
+    
+}*/
+
+.contact-section{
+    padding: 3em;
+    margin: 0% auto;
+    background-color: #191c32;
+}
+
+.contact-head h2{
+    color: #fff;
+    font-size: 3em;
+}
+.contact-form{
+    color: #fff;
+}
+.container-contact{
+    display: flex;
+}
+.container-contact img{
+    width: 750px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    margin-top: 2em;
+}
+
+.form input{
+    padding: 10px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;   
+}
+
+.form textarea{
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border-bottom: 1px solid #fff;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px;
+}
+
+.btn-submit :hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+}
+
+.footerconter h2{
+    font-size: 3em;
+}
+
+.footerconter h5,
+.social-network i{
+    font-size: 1.5em;
+
+}
+.footerconter h5{
+    align-items: center
+}
+
+.social-network{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+
+}
+
+
